@@ -11,9 +11,9 @@ bundle exec jekyll contentful
 bundle exec jekyll build
 
 # Push newly built repository
-cp -r $CWD/_build/* /tmp/build # or $CWD/_site
+cp -r $CWD/_site/* /tmp/_site
 
-cd /tmp/build
+cd /tmp/_site
 
 git config --global user.email "jamey.greenwood@theunit.co.uk"
 git config --global user.name "Jamey Greenwood"
