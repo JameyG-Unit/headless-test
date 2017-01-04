@@ -32,3 +32,20 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+contentful:
+  spaces:
+    - example: # Jekyll _data folder identifier - Required
+        space: 41cmsn8w681n # Required
+        access_token: 1d6b9a8b8685f059396a7d48cd16fd6d3a093a1fc63df19526d7d96e90fdf372 # Required
+        cda_query:                  # Optional
+          include: 2
+          limit: 100
+        # all_entries: true           # Optional - Defaults to false, only grabbing the amount set on CDA Query
+        # all_entries_page_size: 1000 # Optional - Defaults to 1000, maximum amount of entries per CDA Request for all_entries
+        # content_types:              # Optional
+        #  cat: MyCoolMapper
+        # client_options:             # Optional
+        #  api_url: 'preview.contentful.com' # Defaults to 'api.contentful.com' which is Production
+        # base_path: app_path         # Optional - Defaults to Current directory
+        # destination: destination_in_data # Optional - Defaults to _data/contentful/spaces
