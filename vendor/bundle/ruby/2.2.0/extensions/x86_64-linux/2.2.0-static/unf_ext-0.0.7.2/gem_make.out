@@ -1,0 +1,12 @@
+/opt/circleci/ruby/ruby-2.2.4/bin/ruby -r ./siteconf20170104-11513-r40f8r.rb extconf.rb
+checking for main() in -lstdc++... yes
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling unf.cc
+linking shared-object unf_ext.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 unf_ext.so ./.gem.20170104-11513-17nv4xa
