@@ -5,4 +5,4 @@ bundle exec jekyll contentful
 bundle exec jekyll build
 
 # Set permissions for the build scripts
-chmod +x deploy-*.sh
+chmod +x deploy_*.sh
