@@ -3,7 +3,7 @@ CWD=`pwd`
 
 # Clone deployment repository
 cd /tmp
-git clone git@github.com:JameyG-Unit/headless-test-production.git production
+git clone git@github.com:JameyG-Unit/headless-test-master.git production
 
 # Copy built Jekyll site into output directory
 cd $CWD
