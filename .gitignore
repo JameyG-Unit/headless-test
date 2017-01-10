@@ -4,4 +4,6 @@ _site
 .DS_Store
 .sass-cache
 .jekyll-metadata
+/.idea/tasks.xml
+/.idea/workspace.xml
 /vendor
